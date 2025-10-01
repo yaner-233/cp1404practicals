@@ -30,10 +30,10 @@ print(f"My {name} would cost ${cost:,.2f}")  # preferred f-string version
 numbers = [1, 19, 123, 456, -25]
 
 for i, number in enumerate(numbers, 1):
-    print(f"Number {i} is {number:5}")
+    print(f"Number {i} is {number:3}")
 
 print(f"{year} {name} for about ${cost:,.0f}!")
 
 for exponent in range(11):
     result = 2** exponent
-    print(f"2 ^ {exponent} is {result:5}")
+    print(f"2 ^ {exponent} is {result:>6}")
