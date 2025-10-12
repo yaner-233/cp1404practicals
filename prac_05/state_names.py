@@ -23,4 +23,3 @@ while state_code != "":
     except KeyError:
         print("Invalid short state")
     state_code = input("Enter short state: ")
-    state_code = input("Enter short state: ").strip()
